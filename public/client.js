@@ -12,7 +12,7 @@ const game = new Phaser.Game(config);
 let player, obstacles = [], otherPlayers = {};
 
 function preload() {
-    this.load.image("player", "player.png"); // Character sprite
+    this.load.image("player", "characters.png"); // Character sprite
     this.load.image("obstacle", "obstacle.png"); // Obstacle sprite
 }
 
